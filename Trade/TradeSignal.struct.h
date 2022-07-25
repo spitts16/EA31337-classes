@@ -72,10 +72,10 @@ struct TradeSignalEntry {
     TRADE_SIGNAL_FLAG_CLOSE_SELL_MAIN = 1 << 3,    // Main signal for close sell
     TRADE_SIGNAL_FLAG_CLOSE_TIME_FILTER = 1 << 4,  // Time filter to close
     TRADE_SIGNAL_FLAG_EXPIRED = 1 << 5,            // Signal expired
-    TRADE_SIGNAL_FLAG_OPEN_BUY_FILTER = 1 << 6,    // Filter for close buy
-    TRADE_SIGNAL_FLAG_OPEN_BUY_MAIN = 1 << 7,      // Main signal for close buy
-    TRADE_SIGNAL_FLAG_OPEN_SELL_FILTER = 1 << 8,   // Filter for close sell
-    TRADE_SIGNAL_FLAG_OPEN_SELL_MAIN = 1 << 9,     // Main signal for close sell
+    TRADE_SIGNAL_FLAG_OPEN_BUY_FILTER = 1 << 6,    // Filter for open buy
+    TRADE_SIGNAL_FLAG_OPEN_BUY_MAIN = 1 << 7,      // Main signal for open buy
+    TRADE_SIGNAL_FLAG_OPEN_SELL_FILTER = 1 << 8,   // Filter for open sell
+    TRADE_SIGNAL_FLAG_OPEN_SELL_MAIN = 1 << 9,     // Main signal for open sell
     TRADE_SIGNAL_FLAG_OPEN_TIME_FILTER = 1 << 10,  // Time filter to open
     TRADE_SIGNAL_FLAG_PROCESSED = 1 << 11,         // Signal proceed
     // Pre-defined signal conditions.
